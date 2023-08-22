@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <title>From book</title> 
+    <style> 
+        body{font-size: 14;
+            font-family: 'Times New Roman', Times, serif;
+            }
+        h1{color: white;}
+        dt{font-size: large ;
+            font-family: serif;
+            font-style: italic;
+            font: bold;
+            }
+        tr,td{align-items: center;
+            font-size: medium;
+            font-style: italic;
+            font-family:'Lucida Sans';
+            font: bold;
+        }
+        button{height: 30px;
+            width: 70px;
+            background-color: rgb(0, 64, 43);
+            font-size: 25; 
+            text-align: center;
+            color: rgb(176, 176, 225);
+            border-radius: 25px;
+        }
+        form{
+            background-color: red;
+        }
+        label{
+            color: white;
+            font: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        footer{
+            background-color: mediumpurple;
+            color: rgb(2, 45, 5);
+            font: bold;
+            font-size: larger;
+
+        }
+    </style>
+    <meta name="developer" content="Tanvir Reza">
+    <meta name="Keyword" content="html">
+    <link rel="icon" type="images/png" href="images/download.png">
+
+</head>
+
+<body>
+
+    <H1 style="background-color: green; text-align: center;">Hello World</H1>
+    <pre>
+
+     <big>Ami
+    banglay gan gai</big>
+    <p><i>A song name.</i> </p>
+    <p><b>A song name. </b></p>
+    <p>A song <del>name.</del> </p>
+    <p><big>A <sub>song</sub> name. </big></p>
+    <p><big>A <tt>song</tt> name.</big> </p>
+    <p>A <mark>song</mark> name. </p>
+
+    </pre>
+
+    <p>
+        <abbr title="World Health Org.">WHO</abbr> Was found in 1948.
+    </p>
+
+    <p>
+        This are just some <mark> anonymous</mark> things.
+
+    </p>
+
+    <font face="Arial" size="18" color="green"><i><u><b>I am Reza.</b></u></i></font>
+
+    <li>
+        (a+b)<sup>2</sup>= a<sup>2</sup> + 2ab + b<sup>2</sup></li>
+    <li>
+       <span style="color: red;"> H</span><sub><span style="color: green;">2</span></sub><span style="color: red;">SO</span><sub>4</sub>
+    </li>
+
+    <p>
+        This is the orderd list.
+    </p>
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>burger</li>
+        <ul style="list-style-type: disc;">
+            <li>Simple</li>
+            <li>Spicy</li>
+            <li>special Spicy</li>
+            <li>naga</li>
+        </ul>
+    </ol>
+    <h2>Burger</h2>
+    <dl>
+        <dt><b><u>Simple</u></b></dt>
+        <dd>
+            It is just a simple burger with chicken patty, lattus, meosnnese and buns. No spice is added.
+        </dd>
+        <dt><b><u>Spicy</u></b></dt>
+        <dd>
+            Same as Simple burger. But it introduce you a spice knock in your toung. 
+        </dd>
+        <dt><b><u>Special Spicy</u></b></dt>
+        <dd>carries muncho knock in the burger</dd>
+        <dt><b><u>Naga</u></b></dt>
+        <dd>meet the spice boss to make your brain cry.</dd>
+    </dl>
+
+    <table border="4" cellspacing="0" align="center" style="border: dotted;">
+        <tr align="center">
+            <th colspan="6">Time table</th>
+        </tr>
+
+        <tr style="color: white; background-color: gray;">
+            <th rowspan="6" 
+            style="background-color :cadetblue; 
+            color: white;">Hours</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Arts</td>
+        </tr>
+
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr style="background-color: blueviolet;
+        color: white;">
+            <th colspan="5">Lunch</th>
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td rowspan="2">Poject</td>
+        </tr>
+
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>  
+        </tr>
+    </table>
+
+    <br>
+    <H2>Notun Oddhay song</H2>
+    <audio controls>
+        <source src="images/Notun Oddhay - 22_12_22 11.40 PM.mp3" type="audio/mp3">
+        <source src="images/Notun Oddhay - 22_12_22 11.40 PM .wav" type="audio/wav">
+    </audio>
+
+    <br>
+    <a href="lyrics.html"
+    target="_blank">Click here for the lyrics of the song </a>
+    
+    <br>
+    <br>
+    <h3>Video of odhora</h3>
+    <video width="500px" controls>
+        <source src="images/odhora.mp4" type="video/mp4">
+    </video>
+    <br>
+
+
+    <a href="https://google.com" target="_blank">
+        <button >Click me</button>
+    </a>
+
+
+    <h1 style="color: red;">Sample Form</h1>
+
+    <span>
+    <form action="index.php" method="post"  enctype="multipart/form-data">
+
+        <label for="Username">Username</label> &nbsp;
+        <input type="text" id="Username" placeholder="Input your Username" required><br>
+
+        <label for="Email"> Email </label> &nbsp;
+        <input type="email" id="Email" placeholder="abc@gmail.com" required><br>
+        
+        <label for="password">password</label>
+        <input type="password" minlength="6" maxlength="16" placeholder="password" required>
+        <pre>&nbsp;*minimum 6 & maximum 16</pre>
+
+        <label for="Date of Birth">Date of Birth</label> &nbsp;
+        <input type="date" id="Date of Birth" required><br>
+        <br>
+
+        <label for="Phone">Phone #:</label>
+        <input type="tel" id="Phone" placeholder="+880123xx"><br>
+
+        <label for="qtty">Quantity</label>
+        <input type="number" id="qtty" min="0"><br>
+
+        <label for="Exam">Exam </label>
+        <select name="dropdown">
+            <option>Select any</option>
+            <option>PSC</option>
+            <option>JSC</option>
+        </select><br>
+
+        <label for="Correction">Correction of:</label><br>
+
+        <label for="Registration">Registration Card</label>
+        <input type="checkbox" id="Registration" name="Correction">
+        <label for="Admit">Admit Card</label>
+        <input type="checkbox" id="Admit" name="Correction">
+        <label for="Cirtificate">Cirtificate</label>
+        <input type="checkbox" id="Cirtificate" name="Correction">
+        <label for="number sheet">number sheet</label>
+        <input type="checkbox" id="number sheet" name="Correction">
+        <br>
+        
+        <h3>Your Result</h3>
+        <label for="Result"></label><br>
+
+        <label for="GPA5">GPA 5.00</label>
+        <input type="radio" id="GPA5"  name="Result"><br>
+        <label for="GPA4">GPA 4.00</label>
+        <input type="radio" id="GPA4" name="Result"><br>
+        <label for="GPA3">GPA 3.00</label>
+        <input type="radio" id="GPA3" name="Result"><br>
+        <br>
+
+        <label for="file">input the File</label><br>
+        <input type="file" id="file" accept="image/png, image/jpg"><br>
+
+        <br>
+        <textarea name="text" id="Massage" cols="30" rows="10" placeholder="Give us your thoughts."></textarea><br>
+        <input type="reset">
+        <input type="submit" name="submit">
+
+    </form>
+</span>
+
+<br>
+
+    <footer>
+        Auther: Tanvir Reza <br>
+        &copy; Copyright saved by Reza <br>
+        <small><a href="mailto: reza@email.com"> reza@email.com</a></small>
+    </footer>
+</body>
+
+</html>
